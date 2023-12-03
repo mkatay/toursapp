@@ -10,9 +10,10 @@ import { Contact } from "./components/Contact";
 import { Tour } from "./components/Tour";
 import { Footer } from "./components/Footer";
 import { Outlet } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="content">
         <div>
           <Background />
@@ -30,7 +31,7 @@ function App() {
         </Routes>
       </div>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
