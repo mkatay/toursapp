@@ -3,14 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://mkatay/github.io/toursapp",
+  "homepage": "https://mkatay/github.io/toursapp",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy":"pnpm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "pnpm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@react-spring/web": "^9.7.3",
@@ -19,8 +19,8 @@
     "gh-pages": "^6.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-lazy-load-image-component": "^1.6.0",
     "react-router-dom": "^6.20.0"
-   
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
