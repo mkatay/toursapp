@@ -2,6 +2,8 @@
 
 Topics:
 - react-router-dom : Outlet component
+- BrowserRouter vs HashRouter
+- lazy loding images
 - fetch API vs axios
 - animations without frameworks
 - styling without frameworks
