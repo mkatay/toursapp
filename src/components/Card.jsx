@@ -6,10 +6,10 @@ import { NavLink } from 'react-router-dom';
 
 const Card = ({ id,image,name,info,price }) => {
     const navigate=useNavigate()
-    
+    console.log('image:'+image);
   return (
     <div className="card">
-      <img src={image} alt={name} className="card-image" />
+      {image && <img src={image} alt={name} className="card-image" loading='lazy'/>}
       <div className="card-content">
         <h2 className="card-title">{name}</h2>
         <p className="card-description">{truncatedInfo(info)}</p>
