@@ -13,7 +13,7 @@ import { Outlet } from "react-router-dom";
 import { HashRouter } from "react-router-dom";
 function App() {
   return (
-    <HashRouter>
+    <HashRouter basename="/">
       <div className="content">
         <div>
           <Background />
